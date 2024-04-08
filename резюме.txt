@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper"><!-- wrapper -->
+
+        <div class="Main_content"> <!-- Main content -->
+
+            <div class="about-me-container"> <!-- About me -->
+                <h2 class="my-profession">Front-End Developer</h2>
+
+                <h1 class="my-name">Sergiy Humenniy</h1>
+
+                <p class="about-me"> I'm responsible, industrious, attentive and easily trained. Also I want to improve
+                    my knowledge in
+                    development. Looking for an entry-level position with Company to use my skills in coding,
+                    troubleshooting complex problems, and assisting in the timely completion of projects. </p>
+            </div> <!-- About me -->
+
+            <div class="my-projects-container"> <!-- My project  -->
+                <h3 class="Project-title"> Projects </h3>
+
+                <ol class="my-site-list">
+                    <li class="my-site-number"> <a href="http://melange-decor.com/"
+                            class="my-site">http://melange-decor.com/</a> <span
+                            class="site-job">.......................[adding
+                            products, processing orders, updating data, etc]</span> </li>
+                    <li class="my-site-number"> <a href="http://www.fusion-salon.com.ua/"
+                            class="my-site">http://www.fusion-salon.com.ua/</a> <span class="site-job">..........
+                            [adding
+                            products, processing orders, updating data, etc]</span> </li>
+                </ol>
+            </div> <!-- My project  -->
+
+            <div class="work-experience-container"> <!-- Work Experience -->
+
+                <h3 class="Work-Experience-title">Work Experience</h3>
+                <div> <!-- Company 1 -->
+                    <h4 class="my-profession">Manager <span class="my-job">Odeskabel Dnipro.</span> </h4>
+
+                    <p class="time-work"> September 2006 - December 2009 <span class="Slash">|</span> Ukraine</p>
+
+                    <ul class="skills-jobs-list">
+                        <li class="skils-list-item"><span class="skils-list-job">Processing excesses from clients, conducting negotiations with clients.</span>
+                        </li>
+                        <li class="skils-list-item"><span class="skils-list-job">Receiving and inventorying goods in the warehouse.</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">Keeping a report on product balances and ordering products from the head
+                            office.</span></li>
+                    </ul>
+
+                </div> <!-- Company 1 -->
+
+                <div> <!-- Company 2 -->
+                    <h4>Manager <span>Salon Interior</span></h4>
+
+                    <p>January 2010 - up to now | Ukraine</p>
+
+                    <ul class="skills-jobs-list">
+                        <li class="skils-list-item"><span class="skils-list-job">Processing excesses from clients, conducting negotiations with clients.</span>
+                        </li>
+                        <li class="skils-list-item"><span class="skils-list-job">selection for customers of furniture, lighting and decor (European
+                            manufacturers)</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">preparation of specifications for clients</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">conducting negotiations (in writing) with European manufacturers</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">full control of application fulfillment at the factory (size, color,
+                            material, quality,deadlines, etc.)</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">documents for carriers and customs</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">control of delivery and assembly of goods at the customer's facility.</span>
+                        </li>
+                        <li class="skils-list-item"><span class="skils-list-job">receiving and inventorying goods in the warehouse.</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">display of goods in stores</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">performed the duties of the director (during the director's vacation)
+                            there were 12-15 people under his command.</span></li>
+                        <li class="skils-list-item"><span class="skils-list-job">keeping a report on product balances, and ordering products from
+                            factories for points of sale.</span> </li>
+                        <li class="skils-list-item"><span class="skils-list-job">maintaining company websites (adding products, processing orders,
+                            updating data, etc.)</span></li>
+                    </ul>
+                </div><!-- Company 2 -->
+            </div> <!-- Work Experience -->
+
+            <div class="Education-container"> <!-- Education -->
+                <div > <!-- Education 1 -->
+                    <h3 class="Education-title">Education</h3>
+
+                    <h4 class="Universiti">National Metallurgical Academy of Ukraine</h4>
+                    <h4>Ecology</h4>
+
+                    <p class="time-work">September 2002 - June 2007 | Ukraine <span class="Slash">|</span> Ukraine</p>
+                </div><!-- Education 1 -->
+
+                <div> <!-- Education 2 -->
+                    <h4 class="Universiti">Goit</h4>
+                    <h4 class="Maygor">Junior Fullstack Developer</h4>
+
+                    <p class="time-work">February 2024 - up to now | Ukraine <span class="Slash">|</span> Ukraine</p>
+                </div><!-- Education 2 -->
+
+            </div><!-- Education -->
+
+
+        </div> <!--  Main content -->
+
+        <!-- Sidebar -->
+        <aside class="Sidebar">
+
+            <!-- Photo -->
+            <img src="./img/craiyonfoto.png" alt="My photo" class="my-photo">
+
+            <!-- Contacts -->
+            <div class="Contacts-container">
+                <h3 class="Sidebar-title">Contacts </h3>
+                <p class="contact-item">
+                    <span class="Contacts-title">C:</span>
+                    <a href="tel: +380932848004" class="contact-number">+38 093 28 48 004</a>
+                </p>
+                <p class="contact-item">
+                    <span class="Contacts-title">E:</span>
+                    <a href="mailto:gum0372@gmail.com" class="contact-email">Gum0372@gmail.com</a>
+                </p>
+            </div><!-- Contacts -->
+
+            <!-- Tech Skills -->
+            <div class="tech-skils-container">
+                <h3 class="Sidebar-title">Tech Skills</h3>
+
+                <ul class="skils-list">
+                    <li class="skils-list-item"> <span class="skils-list-name">HTML5</span></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">CSS3</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">GIT</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">WebPack</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">JavaScript</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">React.js</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">Node.js</SPan></li>
+                </ul>
+
+            </div> <!-- Tech Skills -->
+
+            <!-- Soft Skills -->
+            <div class="soft-skils-container">
+                <h3 class="Sidebar-title">Soft Skills</h3>
+                <ul class="skils-list">
+                    <li class="skils-list-item"><SPan class="skils-list-name">Scrum</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">Agile</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">GTD</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">Teamwork</SPan></li>
+                </ul>
+            </div><!-- Soft Skills -->
+
+            <!-- LANGUAGES -->
+            <div class="languages-container">
+                <h3 class="Sidebar-title">Languages</h3>
+                <ul class="skils-list">
+                    <li class="skils-list-item"> <SPan class="skils-list-name">Ukrainian – native.</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">Russian – native.</SPan></li>
+                    <li class="skils-list-item"><SPan class="skils-list-name">English – pre-intermediate.</SPan></li>
+                </ul>
+            </div><!-- LANGUAGES -->
+
+
+
+
+        </aside>
+
+    </div><!-- wrapper -->
+
+</body>
+
+</html>
